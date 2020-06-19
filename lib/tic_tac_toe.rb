@@ -113,6 +113,7 @@ class TicTacToe
         return "O"
       elsif current_player == "O"
         return "X"
+      end
     end
   end
 end
