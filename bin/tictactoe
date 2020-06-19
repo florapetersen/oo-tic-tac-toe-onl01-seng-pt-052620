@@ -6,5 +6,5 @@ class TicTacToe
     @game = game
   end
 
-  new_game = new.TicTacToe
+  game = new.TicTacToe
 end
