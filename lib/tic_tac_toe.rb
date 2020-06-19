@@ -111,7 +111,7 @@ class TicTacToe
     if won?
       if current_player == "X"
         return "O"
-      if current_player == "O"
+      elsif current_player == "O"
         return "X"
     end
   end
