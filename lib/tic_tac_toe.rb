@@ -118,7 +118,7 @@ class TicTacToe
   end
 
   def play
-    if won?
+    until won? || draw? if won?
       puts "Congratulations!"
     elsif draw?
       puts "The game ended in a draw."
