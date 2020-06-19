@@ -120,7 +120,7 @@ class TicTacToe
   def play
     if won?
       puts "Congratulations!"
-    if draw?
+    elsif draw?
       puts "The game ended in a draw."
     end
   end
