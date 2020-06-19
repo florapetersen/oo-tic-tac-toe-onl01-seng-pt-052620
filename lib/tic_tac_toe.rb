@@ -106,4 +106,7 @@ class TicTacToe
       return true
     end
   end
+
+  def winner
+    
 end
