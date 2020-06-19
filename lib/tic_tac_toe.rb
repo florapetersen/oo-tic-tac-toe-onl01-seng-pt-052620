@@ -118,5 +118,7 @@ class TicTacToe
   end
 
   def play
-  end  
+    if won?
+      puts "Congratulations!"
+  end
 end
