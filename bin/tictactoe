@@ -8,6 +8,4 @@ class TicTacToe
 
   game = TicTacToe.new
   game.play
-
-  
 end
